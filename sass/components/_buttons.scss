@@ -1,0 +1,44 @@
+.number-btns{
+    display: flex; 
+    flex-direction: row;  
+    gap: 1rem;
+    justify-content: space-between;
+
+    .num-btn{
+        width: 60px; 
+        height: 60px;  
+        padding: 1rem;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0px;
+        color: $White;
+        outline: none;   
+        border: 1px solid $Grey-900; 
+        background-color: $Grey-900;   
+        cursor: pointer; 
+        font-size: 1rem ;  
+
+        &:hover{
+            background-color: $Orange;
+        }
+        &:focus{
+            color: $Grey-950;
+            background-color: $White;
+        }
+    }
+}
+
+#submit{ 
+    width: 100%;
+    min-height: 100%; 
+    padding: .56rem;  
+    font-size: 1rem;
+    border-radius: 50px; 
+    background-color: $Orange;
+    outline: none;
+    cursor: pointer; 
+
+    &:hover{background-color: $White;}
+}

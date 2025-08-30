@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://rating-component25.netlify.app/
 
 ## My process
 Using CSS preprocessor SCSS for styling was better for me. I broke each part of the project into components so I can style each component separately in their respective files. Using SCSS made me come to terms with the use and importance of the command line and NPM. It was worthwhile learning something new. I used max-width to for the project such that, either desktop or mobile, it looks the same.
